@@ -20,7 +20,6 @@ I've checked that:
 
 ### Join logic:
 * [ ] if joining to base table (i.e. ethereum transactions or traces), I looked to make it an inner join if possible
-
 ### Incremental logic:
 * [ ] I used is_incremental & not is_incremental jinja block filters on both base tables and decoded tables
   * [ ] where block_time >= date_trunc("day", now() - interval '1 week')
